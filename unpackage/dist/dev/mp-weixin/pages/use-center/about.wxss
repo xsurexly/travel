@@ -1,0 +1,68 @@
+
+/* 通用样式 */
+.container.data-v-e5b509e7 {
+  padding: 20rpx;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+.header.data-v-e5b509e7 {
+  text-align: center;
+  padding: 40rpx 0;
+}
+.logo.data-v-e5b509e7 {
+  width: 120rpx;
+  height: 120rpx;
+  margin-bottom: 20rpx;
+}
+.app-name.data-v-e5b509e7 {
+  font-size: 36rpx;
+  font-weight: bold;
+  display: block;
+  margin: 10rpx 0;
+}
+.slogan.data-v-e5b509e7 {
+  font-size: 24rpx;
+  color: #666;
+}
+
+/* 卡片样式 */
+.card.data-v-e5b509e7 {
+  background-color: #fff;
+  border-radius: 16rpx;
+  margin: 20rpx 0;
+  padding: 0 20rpx;
+}
+.card-item.data-v-e5b509e7 {
+  display: flex;
+  align-items: center;
+  padding: 30rpx 0;
+  border-bottom: 1rpx solid #eee;
+}
+.card-item.data-v-e5b509e7:last-child {
+  border-bottom: none;
+}
+.label.data-v-e5b509e7 {
+  width: 160rpx;
+  color: #999;
+}
+.value.data-v-e5b509e7 {
+  flex: 1;
+  color: #333;
+}
+.icon.data-v-e5b509e7 {
+  width: 32rpx;
+  height: 32rpx;
+  margin-left: 20rpx;
+}
+
+/* 法律声明 */
+.legal.data-v-e5b509e7 {
+  text-align: center;
+  color: #999;
+  font-size: 24rpx;
+  margin-top: 40rpx;
+}
+.link.data-v-e5b509e7 {
+  color: #007AFF;
+  margin: 0 20rpx;
+}

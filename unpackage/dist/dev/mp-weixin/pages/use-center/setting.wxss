@@ -1,0 +1,47 @@
+
+.settings-page.data-v-579e7ef0 {
+  padding: 30rpx;
+  background: #f8f8f8;
+  min-height: 100vh;
+}
+
+/* 列表容器 */
+.list-container.data-v-579e7ef0 {
+  background: #fff;
+  border-radius: 16rpx;
+  margin: 30rpx 0;
+}
+
+/* 列表项通用样式 */
+.list-item.data-v-579e7ef0 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32rpx 30rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.list-item.data-v-579e7ef0:last-child {
+  border-bottom: none;
+}
+
+/* 账号信息特殊样式 */
+.list-item .item-content.data-v-579e7ef0 {
+  flex: 1;
+}
+.item-title.data-v-579e7ef0 {
+  font-size: 32rpx;
+  color: #333;
+}
+.item-sub.data-v-579e7ef0 {
+  display: block;
+  font-size: 26rpx;
+  color: #666;
+  margin-top: 10rpx;
+}
+
+/* 箭头样式 */
+.arrow.data-v-579e7ef0 {
+  color: #999;
+  font-size: 36rpx;
+  margin-left: 20rpx;
+}

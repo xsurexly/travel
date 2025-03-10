@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/tra/tra",
+    "pages/use-center/user-center",
+    "pages/use-center/setting",
+    "pages/use-center/privacy",
+    "pages/use-center/changelog",
+    "pages/use-center/about",
+    "pages/use-center/information"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "游之荐",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#007AFF",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home-active.png"
+      },
+      {
+        "pagePath": "pages/tra/tra",
+        "text": "行程",
+        "iconPath": "static/推荐行程1.png",
+        "selectedIconPath": "/static/推荐行程2.png"
+      },
+      {
+        "pagePath": "pages/use-center/user-center",
+        "text": "我的",
+        "iconPath": "static/用户_填充.png",
+        "selectedIconPath": "/static/用户_填充 (1).png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "需要获取用户的位置以提供路线规划服务"
+    }
+  },
+  "usingComponents": {}
+}
